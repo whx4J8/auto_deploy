@@ -5,4 +5,4 @@ def callbackHandler():
     os.system('./deploy.sh')
     return "ok"
 
-run(host='localhost', port=8082, debug=False)
+run( port=8082, debug=False)
