@@ -1,10 +1,10 @@
 import os
-from bottle import run,route
-import Server
+from bottle import run, route
 
 @route("/callback")
 def callbackHandler():
     os.system('./deploy.sh')
     return "ok"
 
-run( host=Server.gethostbyname(),port=8082, debug=False)
+
+run(host='0.0.0.0', port=8082, debug=False)  # use 0.0.0.0 isok
