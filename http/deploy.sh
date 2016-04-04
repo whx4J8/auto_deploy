@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-deppatch="/opt_dev/python/auto_dep_demo"
+deppath="/opt_dev/python/auto_dep_demo"
 
-echo "git start pull at "$deppath
+echo "git start pull at " ${deppath}
 
-cd $deppatch
+cd ${deppath}
 git pull #pull data from master
 
-echo "git pull done"
+echo "git pull done at " ${deppath}

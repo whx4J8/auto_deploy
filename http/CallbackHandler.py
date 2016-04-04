@@ -7,4 +7,4 @@ def callbackHandler():
     return "ok"
 
 
-run(host='0.0.0.0', port=8082, debug=False)  # use 0.0.0.0 isok
+run(host='0.0.0.0', port=8082, debug=False)  # use 0.0.0.0 inner or outer net ip is all ok
